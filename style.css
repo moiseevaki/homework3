@@ -2,40 +2,70 @@
 	margin:0;
 	padding: 0;
 }
+
 body {
 	font-family: "Open Sans", Arial;
 	background-color: #f9f9f9;
-	margin-left: 5%;
-	margin-right: 5%;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
 }
+
 div {
 	background-color: #fff;
 }
+
+.homework3 {
+	box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+	padding-bottom: 30px;
+	padding-top: 20px;
+	margin-right: 9%;
+	margin-left: 9%;
+}
+
 a {
 	text-decoration: none; 
 }
+
 ul {
 	font-size: 0;
 	line-height: 0;
 	letter-spacing: -1px;
 }
-li{
+
+li {
 	line-height: normal;
 	letter-spacing: normal;
-
 }
+
+.img {
+	border: 1px solid #c8c8c8;
+	padding: 32px;
+}
+
+.text {
+	padding: 30px;
+}
+
 .header li {
-	display: block;
 	float: left;
 	list-style: none;
-	margin: 5px;
-	padding: 5px;
 	font-size: 11px;
+	padding: 8px;
 }
-.header li:active{
-	border: 1px solid white;
-	background: green;
+
+.header a {
+	color: #fff;
 }
+
+.header a:active {
+	color: #fff;
+}
+
+.header li:active {
+	border-left: 1px solid #fff;
+	border-right: 1px solid #fff;
+	background: #454545;
+}
+
 .footer li {
 	display: inline-block;
 	float: left;
@@ -44,50 +74,74 @@ li{
 	padding: 5px;
 	font-size: 11px;
 }
-.sidebar li{
-	margin: 0;
+
+.sidebar li {
 	padding: 9px;
 	list-style: none;
-	border-style: solid;
-	border-color: grey;
-	border-width: 0,5px;
 	font-size: 10pt;
-	
+	border: .5px solid #c8c8c8;
 }
-.sidebar li:active{
-	text-align: center;
-}
-.logo{
 
+.sidebar li:active {
+	text-align: center;
+	background-color: #f9f9f9;
 }
-.header{
+
+.sidebar a {
+	color: #656363;
+}
+
+.sidebar a:active {
+	color: #2c2c2c;
+}
+
+.logo {
+	margin-left: 16px;
+	margin-bottom: 32px;
+	margin-right: 16px;
+}
+
+.header, .footer {
+	margin: 16px;
+}
+
+.header {
 	position: relative;
 	overflow: hidden;
-	background: grey;
-}
-.conteiner {
-	height: 41px;
-}
-.sidebar{
-	float: left;
-	width: 20%;
-	border-width: 0,5px;
-}
-.conteiner2 {
-	float: left;
-	width: 10%;
-}
-.content{
-	float: right;
-	width: 70%;
+	background: linear-gradient(to left, #515151, #575757);
 }
 
-.footer{
+.sidebar {
+	float: left;
+	margin-left: 16px;
+	width: 16%;
+}
+
+.content {
+	display: inline-block;
+	width: 80%;
+	margin-right: 16px;
+	float: right;
+}
+
+.footer {
 	clear: both;
 	position: relative;
 	overflow: hidden;
-	background: grey;
+	background: #e1e1e1;
 }
-.footer li:active{
+
+.footer a {
+	color: #2c2c2c;
+}
+
+.footer a:active {
 	text-decoration: underline;
+	color: #2c2c2c;
+}
+
+.footer li:last-child {
+	text-align: right;
+	display: inline-block;
+	float: right;
 }
